@@ -5,9 +5,9 @@ using System.Web;
 
 namespace PropertyManagement.API.Models
 {
-    public class Supervisor: Person
+    public class Picture
     {
-        public int SupervisorId { get; set; }
-
+        public int Id { get; set; }
+        public string PictureUrl { get; set; }
     }
 }

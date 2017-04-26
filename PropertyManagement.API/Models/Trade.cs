@@ -5,10 +5,9 @@ using System.Web;
 
 namespace PropertyManagement.API.Models
 {
-    public class Phone
+    public class Trade
     {
-        public int PhoneId { get; set; }
+        public int TradeId { get; set; }
         public string Name { get; set; }
-        public string Number { get; set; }
     }
 }

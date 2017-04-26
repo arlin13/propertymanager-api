@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace PropertyManagement.API.Models
+﻿namespace PropertyManagement.API.Models
 {
     public class Company
     {
+        public int CompanyId { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+
+        //muchas propiedades
     }
 }
