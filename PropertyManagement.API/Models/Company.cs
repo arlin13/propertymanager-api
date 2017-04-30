@@ -1,4 +1,7 @@
-﻿namespace PropertyManagement.API.Models
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+
+namespace PropertyManagement.API.Models
 {
     public class Company
     {
@@ -6,6 +9,11 @@
         public string Name { get; set; }
         public string Address { get; set; }
 
-        //muchas propiedades
+        public virtual ICollection<Client> Clients { get; set; }
+
+        public Company()
+        {
+            Clients = new Collection<Client>();
+        }
     }
 }
