@@ -10,6 +10,7 @@ namespace PropertyManagement.API.Models
         public decimal HourlyPay { get; set; }
 
         public virtual Role Role { get; set; }
+        public virtual Department Department { get; set; }
         public virtual ICollection<Trade> Trades { get; set; }
 
         public Employee()
