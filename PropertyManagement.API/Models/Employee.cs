@@ -8,6 +8,8 @@ namespace PropertyManagement.API.Models
         public int EmployeeId { get; set; }
         public bool HasCar { get; set; }
         public decimal HourlyPay { get; set; }
+
+        public virtual Role Role { get; set; }
         public virtual ICollection<Trade> Trades { get; set; }
 
         public Employee()
