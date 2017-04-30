@@ -47,7 +47,6 @@ C:\dev\PropertyManager\Backend\PropertyManagement\PropertyManagement.API\bin\New
 C:\dev\PropertyManager\Backend\PropertyManagement\PropertyManagement.API\bin\System.Net.Http.Formatting.xml
 C:\dev\PropertyManager\Backend\PropertyManagement\PropertyManagement.API\bin\System.Web.Http.xml
 C:\dev\PropertyManager\Backend\PropertyManagement\PropertyManagement.API\bin\System.Web.Http.WebHost.xml
-C:\dev\PropertyManager\Backend\PropertyManagement\PropertyManagement.API\obj\Debug\PropertyManagement.API.csprojResolveAssemblyReference.cache
 C:\dev\PropertyManager\Backend\PropertyManagement\PropertyManagement.API\obj\Debug\PropertyManagement.API.dll
 C:\dev\PropertyManager\Backend\PropertyManagement\PropertyManagement.API\obj\Debug\PropertyManagement.API.pdb
 C:\dev\PropertyManager\Backend\PropertyManagement\PropertyManagement.API\bin\Microsoft.AspNet.Identity.Core.dll
