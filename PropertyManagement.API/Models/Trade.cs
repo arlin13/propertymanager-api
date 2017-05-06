@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace PropertyManagement.API.Models
 {
@@ -9,5 +7,13 @@ namespace PropertyManagement.API.Models
     {
         public int TradeId { get; set; }
         public string Name { get; set; }
+        public string Description { get; set; }
+
+        public virtual ICollection<EmployeeTrade> EmployeeTrades { get; set; }
+
+        public Trade()
+        {
+            EmployeeTrades = new Collection<EmployeeTrade>();
+        }
     }
 }

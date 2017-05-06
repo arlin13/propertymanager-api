@@ -11,11 +11,11 @@ namespace PropertyManagement.API.Models
 
         public virtual Role Role { get; set; }
         public virtual Department Department { get; set; }
-        public virtual ICollection<Trade> Trades { get; set; }
+        public virtual ICollection<EmployeeTrade> EmployeeTrades { get; set; }
 
         public Employee()
         {
-            Trades = new Collection<Trade>();
+            EmployeeTrades = new Collection<EmployeeTrade>();
         }
     }
 }

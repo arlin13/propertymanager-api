@@ -128,14 +128,18 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Data\PropertyManagementDataContext.cs" />
+    <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeTrade.cs" />
     <Compile Include="Models\Material.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Phone.cs" />
     <Compile Include="Models\Picture.cs" />
     <Compile Include="Models\Property.cs" />
+    <Compile Include="Models\Role.cs" />
     <Compile Include="Models\Supervisor.cs" />
     <Compile Include="Models\Trade.cs" />
     <Compile Include="Models\User.cs" />
@@ -144,6 +148,7 @@
     <Compile Include="RegistrationModel.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Utility\BaseApiController.cs" />
+    <Compile Include="Utility\Enums\Gender.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
