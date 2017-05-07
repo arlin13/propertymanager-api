@@ -8,5 +8,7 @@ namespace PropertyManagement.API.Models
         public string Name { get; set; }
         public string Address { get; set; }
         public DbGeography Location { get; set; }
+
+        public virtual Client Client { get; set; }
     }
 }

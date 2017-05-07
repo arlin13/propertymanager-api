@@ -139,6 +139,7 @@
     <Compile Include="Models\Phone.cs" />
     <Compile Include="Models\Picture.cs" />
     <Compile Include="Models\Property.cs" />
+    <Compile Include="Models\RegistrationModel.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\Supervisor.cs" />
     <Compile Include="Models\Trade.cs" />
